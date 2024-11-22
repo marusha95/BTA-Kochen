@@ -1,0 +1,24 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 10;
+  width: 600px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #000; /* Schwarze Umrandung mit 2px Stärke */
+  padding: 5px; /* Innenabstand */
+  width: 600px; /* Breite des Textfelds */
+  margin-bottom: 20px; /* Abstand unterhalb des Containers */
+  gap: 20px;
+}
+
+.flex-container-2 {
+  display: flex;
+  flex-direction: row-reverse;
+  border: 1px solid #000; /* Schwarze Umrandung mit 2px Stärke */
+  padding: 5px; /* Innenabstand */
+  width: 600px; /* Breite des Textfelds */
+  gap: 20px;
+}
